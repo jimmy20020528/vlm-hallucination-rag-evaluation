@@ -1,12 +1,15 @@
 # Hallucination Reduction in Vision-Language Models
 
-This project evaluates hallucination in image captioning and tests simple mitigation via prompting.
+This project evaluates object-level hallucination in image captioning and implements iterative mitigation strategies, including baseline prompting, true image-RAG, safety-gated RAG, and a literature-inspired v6 pipeline.
 
 ## Goal
 Measure how often a pretrained captioning model hallucinates objects not present in the image, then compare:
 
 1. Baseline caption generation
-2. Constrained prompting for more grounded captions
+2. Constrained prompting for grounded captions
+3. Naive image-RAG (CLIP retrieval + BLIP generation)
+4. Guarded/safety-gated RAG
+5. v6 minimal pipeline (top-M retrieval + rerank + uncertainty trigger + whitelist + fallback)
 
 ## Dataset
 - MS COCO val2017 images
