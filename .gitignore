@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Large datasets and generated experiment artifacts
+data/
+outputs/
+outputs_rag/
+outputs_rag_v2/
+outputs_rag_v3/
+outputs_rag_v4/
+outputs_rag_v5/
+outputs_rag_v6/
+
+# OS/editor noise
+.DS_Store

@@ -1,0 +1,34 @@
+Suggested document QA questions (edit based on your own documents):
+
+1. What is the publication date shown in the document?
+2. Who is the author or organization responsible for this report?
+3. What is the main objective stated in the executive summary?
+4. Which section discusses methodology?
+5. What dataset size is reported?
+6. What is the top-line result shown in the summary chart?
+7. Which figure reports the highest value, and what is that value?
+8. What limitation is explicitly mentioned by the authors?
+9. What recommendation is given in the conclusion section?
+10. What does Table 1 compare?
+11. What is the unit used on the y-axis of the main chart?
+12. Which year has the lowest metric in the trend figure?
+13. What assumption is made before the experiment?
+14. What baseline method is used for comparison?
+15. What performance metric improves the most?
+16. Is there any contradictory statement across sections? If yes, where?
+17. Which appendix contains implementation details?
+18. What threshold value is used in the analysis?
+19. What future work is suggested?
+20. Provide one claim from the report and cite its page/figure source.
+
+Labeling guide:
+- Correct: factually supported by source
+- Partial: partly correct or incomplete
+- Hallucinated: unsupported or incorrect
+
+Error type examples:
+- retrieval miss
+- OCR noise
+- wrong grounding
+- overconfident generation
+- ambiguous question
